@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import BasicsOfUseEffectHook from './hooks/useEffectHook/BasicsOfUseEffectHook';
+import BasicsOfUseStateHook from "./hooks/useStateHook/BasicsOfUseStateHook";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='header'>React Important Concepts - 2022</h1>
+      <BasicsOfUseStateHook />
+      <hr />
+      <BasicsOfUseEffectHook />
+      <hr />
     </div>
   );
 }
